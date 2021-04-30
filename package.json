@@ -1,0 +1,25 @@
+{
+  "name": "gatsby",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "latest",
+    "gatsby": "latest",
+    "gatsby-plugin-material-ui": "latest",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-helmet": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-helmet": "latest",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
+}
